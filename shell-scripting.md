@@ -1,4 +1,4 @@
-## `Shell Scripting
+## `Shell Scripting`
 
 A shell scripting is a text file that contains a sequence of commands for a UNIX-based operating system. It is called a shell script because it combines a sequence of commands, that would otherwise have to be typed into the keyboard one at a time, into a single script. A shell script is usually created for command sequences in which a user has a need to use repeatedly in order to save time.
 
@@ -112,7 +112,7 @@ chmod a+x variable-screen
 ./variable-screen
 ```
 
-## `Input and Output of script
+## `Input and Output of script`
 
 In shell scripting, we can interact with the user by taking input and displaying output. The shell can wait for user input using the read command. The echo command is used to display output on the screen.
 
@@ -132,8 +132,8 @@ echo
 echo "Hello $namecont"
 echo
 ```
-In this example:
-  read namecont waits for user input.
+In this example:  
+  read namecont waits for user input.  
   The entered value is stored in the variable namecont.
   $namecont is used to display the stored value.
 
@@ -184,20 +184,20 @@ The if statement allows us to check conditions such as whether a file exists, wh
 
 `Common File Test Options` -
 
--e → Checks if a file exists
--f → Checks if it is a regular file
--z → Checks if a string is empty
-!= → Not equal to
+-e → Checks if a file exists  
+-f → Checks if it is a regular file  
+-z → Checks if a string is empty  
+!= → Not equal to  
 
-`Example`: Searching for a Keyword in Files
+`Example: Searching for a Keyword in Files`
 
 The following script checks files in a folder and searches for a keyword inside each file.
 
-`If the file exists`:
+`If the file exists`:  
 
-  It searches for the keyword "spo"
-  If the keyword is not found → prints EMPTY
-  If found → prints FOUND!
+  It searches for the keyword "spo"  
+  If the keyword is not found → prints EMPTY  
+  If found → prints FOUND!  
 
 `If the file does not exist`:
 
@@ -270,9 +270,9 @@ A daemon process is commonly written using a while loop so that it keeps running
 
 A case statement is used to perform different actions based on different options selected by the user.
 
-   If option A is selected, do this.
-   If option B is selected, do this.
-   If option C is selected, do this.
+   1. If option A is selected, do this.    
+   2. If option B is selected, do this.    
+   3. If option C is selected, do this.  
 
 Most installation programs are written using case statements, where the script waits for user input and allows the user to select from multiple choices.
 
