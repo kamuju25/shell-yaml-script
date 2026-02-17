@@ -137,7 +137,7 @@ In this example:
   - The entered value is stored in the variable namecont. `$namecont` is used to display the stored value.
 
 `Example - Storing command output in a variable`  
-We can also store the output of a command inside a variable using backticks ` ` (or $( ), which is the modern method).
+We can also store the output of a command inside a variable using backticks "` `" (or $( ), which is the modern method).
 
 ```bash
 #!/bin/bash
