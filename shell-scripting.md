@@ -133,11 +133,10 @@ echo "Hello $namecont"
 echo
 ```
 In this example:  
-  read namecont waits for user input.  
-  The entered value is stored in the variable namecont.
-  $namecont is used to display the stored value.
+  - read namecont waits for user input.  
+  - The entered value is stored in the variable namecont. $namecont is used to display the stored value.
 
-`Example - Storing command output in a variable`
+`Example - Storing command output in a variable`  
 We can also store the output of a command inside a variable using backticks ` ` (or $( ), which is the modern method).
 
 ```bash
@@ -195,9 +194,9 @@ The following script checks files in a folder and searches for a keyword inside 
 
 `If the file exists`:  
 
-  It searches for the keyword "spo"  
-  If the keyword is not found → prints EMPTY  
-  If found → prints FOUND!  
+  - It searches for the keyword "spo"  
+  - If the keyword is not found → prints EMPTY  
+  - If found → prints FOUND!  
 
 `If the file does not exist`:
 
