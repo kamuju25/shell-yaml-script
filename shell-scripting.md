@@ -134,7 +134,7 @@ echo
 ```
 In this example:  
   - read namecont waits for user input.  
-  - The entered value is stored in the variable namecont. $namecont is used to display the stored value.
+  - The entered value is stored in the variable namecont. `$namecont` is used to display the stored value.
 
 `Example - Storing command output in a variable`  
 We can also store the output of a command inside a variable using backticks ` ` (or $( ), which is the modern method).
@@ -176,7 +176,7 @@ This stores the system’s hostname inside variable a.
 
 In shell scripting, an if-then statement is used to make decisions. 
 
-If a condition is true → do this
+If a condition is true → do this  
 Otherwise → do that
 
 The if statement allows us to check conditions such as whether a file exists, whether a variable is empty, or whether two values are equal.
